@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+header{
+	background-color: #fff;
+	padding: 20px 0;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex:0 1 auto;
+	align-items: center;
+}
+.logo{ width: 20%; 
+       flex: 0 1 auto;
+}
+.logo a{}
+.logo a img{}
+
+
+nav{width: 80%;
+	background-color: ;
+    flex: 0 1 auto;
+ }
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content:flex-end; 
+}
+nav ul li{
+	list-style: none;
+}
+nav ul li  a{
+    color:#232323 ;
+    font-size: 22px;
+    text-decoration:none;
+    padding: 20px; 
+}
+
+section .container{
+	height: 100%;
+	align-items: flex-start;
+	padding-bottom: 150px;
+	flex-direction: column;
+	justify-content: flex-end;
+
+}
+
+section{
+	height: 90vh;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+.yellow{
+	background-image: url(../images/portfolio-item57.jpg);
+	
+
+}
+
+
+.blue{
+	background-image: url(../images/portfolio-item58.jpg);
+	
+
+}
+
+
+.red{
+	background-image: url(../images/portfolio-item59.jpg);
+	
+
+}
+
+
+.green{
+	background-image: url(../images/portfolio-item60.jpg);
+	
+
+}
+
+.pink{
+	background-image: url(../images/portfolio-item61.jpg);
+	
+
+}
+
+section p{
+	color: #2b224294;
+	margin-bottom: 30px;
+	line-height: 10px;
+	font-weight: 400px;
+}
+
+
+section h2{
+   background: #fff;
+   padding: 15px 40px;
+   font-size: 22px;
+   font-weight: 400px;
+   line-height: 20px;
+
+  
+}
+
+
+section a{
+   font-size: 22px;
+   text-decoration: none;
+   color: #fff;
+   background: black;
+   padding: 10px 40px;
+  
+
+}
+
+footer
+	{
+	background-color: #fff;
+	padding: 50px 0;
+}
+
+footer .container{
+	width: 1200px;
+}
